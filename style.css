@@ -24,12 +24,6 @@
 	border-radius: 30px;
 }
 
-.open-popup {
-	visibility: visible;
-	top: 50%;
-	transform: translate(-50%, -50%) scale(1);
-}
-
 .popup {
 	width: 400px;
 	background: #fff;
@@ -43,6 +37,12 @@
 	color: #333;
 	visibility: hidden;
 	transition: transform 0.4s, top 0.4s;
+}
+
+.open-popup {
+	visibility: visible;
+	top: 50%;
+	transform: translate(-50%, -50%) scale(1);
 }
 
 .popup img {
