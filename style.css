@@ -24,6 +24,12 @@
 	border-radius: 30px;
 }
 
+.open-popup {
+	visibility: visible;
+	top: 50%;
+	scale: 1;
+}
+
 .popup {
 	width: 400px;
 	background: #fff;
@@ -36,6 +42,7 @@
 	padding: 0 30px 30px;
 	color: #333;
 	visibility: hidden;
+	transition: transform 0.4s, top 0.4s;
 }
 
 .popup img {
